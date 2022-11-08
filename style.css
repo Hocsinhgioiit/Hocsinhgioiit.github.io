@@ -1,3 +1,7 @@
+body{
+  width: 100%;
+  height: 100%;
+}
 h1{
   text-align: center;
   
@@ -7,16 +11,27 @@ h1{
     justify-content: space-between;
 }
 .anh1 {
-    width: 20%;
+    width: 18%;
 }
 .anh2{
     width: 20%;
 }
-
+.anh3{
+    width: 20%;
+    height: 20%;
+}
+.anh4{
+   width: 18%;
+}
+.anhx{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
 #pinkboard{
     text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -300px;
+    margin-top: -620px;
 }
